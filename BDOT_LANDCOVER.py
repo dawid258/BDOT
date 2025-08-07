@@ -42,6 +42,7 @@ CLASSIFICATION_MAP = {
     "OT_PTRK_A": (1, "Paved"),  # Kompleksy komunikacyjne
     "OT_PTPL_A": (1, "Paved"),  # Place
     "OT_PTUT_A": (1, "Paved"),  # Tereny urządzone i przekształcone
+    "OT_PTKM_A": (1, "Paved"),
     
     # Klasa 2: Buildings (Budynki)
     "OT_PTZB_A": (2, "Buildings"), # Tereny zabudowane
@@ -64,8 +65,7 @@ CLASSIFICATION_MAP = {
     "OT_PTWP_A": (7, "Water"), # Wody płynące
     "OT_PTWZ_A": (7, "Water"), # Wody stojące
     
-    # Kody, które mogą być problematyczne lub wymagać ręcznej weryfikacji
-    "OT_PTKM_A": (6, "Bare soil") # Tereny kamieniste - przypisano do "Bare soil"
+
 }
 
 # 5. Rozdzielczość przestrzenna wynikowego rastra w metrach
