@@ -1,12 +1,14 @@
 SCRIPT change bdot layers to landcover .tif and landcover vector file.
-TARGET_BDOT_CODES = [
+TARGET_BDOT_CODES = 
+[
     "OT_PTTR_A", "OT_PTRK_A", "OT_PTPL_A", "OT_PTNZ_A",
     "OT_PTLZ_A", "OT_PTKM_A", "OT_PTGN_A", "OT_PTZB_A",
     "OT_PTWZ_A", "OT_PTWP_A", "OT_PTUT_A"
 ]
 
 
-CLASSIFICATION_MAP = {
+CLASSIFICATION_MAP = 
+{
     # Klasa 1: Paved (Nawierzchnie utwardzone)
     "OT_PTRK_A": (1, "Paved"),  # Kompleksy komunikacyjne
     "OT_PTPL_A": (1, "Paved"),  # Place
